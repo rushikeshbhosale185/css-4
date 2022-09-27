@@ -1,0 +1,174 @@
+
+
+
+/* Offer */
+
+.offer{
+    border-radius: 8px;
+    text-align: center;
+    height: 40px;
+    background: linear-gradient(to right, red -20%, rgb(7, 244, 7), yellow 100%);
+}
+
+/* Disc type Ordered List  */
+
+.home{
+    height: 90px;
+    width: 700px;
+    margin-left: calc((100vw - 700px)/2);
+    border-radius: 15px;
+    background-color: aliceblue;
+    border: 4px solid red;
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+
+/* lorem ipsum container using grid */
+
+
+.zero{
+    border-radius: 20px;
+    background-color: aquamarine;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 100px);
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.box{
+    height: 80px;
+    width: 390px;
+    border: 1px solid green;
+    border-radius: 15px;
+    background-color: lightseagreen;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#box{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+/* Top Performer radial gradiant  */
+
+.top{
+    padding-top: 1px;
+    padding-bottom: 5px;
+    height: 60px;
+    background: linear-gradient(to right,red,yellow,red 100%);
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Performer Boxes */
+
+.jee{
+    height: 300px;
+    border: 1px solid greenyellow;
+    border-radius: 12px;
+    background: radial-gradient(blue, green);
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.performer{
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+    height: 90px;
+    border: 1px solid violet;
+    border-radius: 14px;
+    background-color: aqua;
+    line-height: 25px;
+}
+
+
+/* best career place container boxes in grid display format */
+
+.parent{
+    background-color: beige;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(3,auto) 200px;
+    grid-template-rows: 80px 100px 150px 65px;
+    row-gap:30px ;
+    column-gap: 12px;
+}
+
+.child1{
+    border: 1px solid black;
+    grid-column: 1/5;
+    background-color: rgb(191, 22, 115);
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px 100px;
+    color: beige;
+}
+
+.child2{
+    border: 1px solid black;
+    background-color: green;
+    color: beige;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+.child3{
+    border: 1px solid black;
+    background-color: blue;
+    color: beige;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+.child4{
+    border: 1px solid black;
+    background-color: rgb(102, 12, 245);
+    color: beige;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+.child5{
+    border: 1px solid white;
+    background-color: black;
+    line-height: 20px;
+    color: beige;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+
+.child6{
+    border: 1px solid black;
+    background-color: orange;
+    color: beige;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+    line-height: 10px;
+    grid-column: 1/4;
+}
+
+.child7{
+    border: 1px solid black;
+    background-color: rgb(7, 112, 103);
+    color: beige;
+    border-radius: 12px;
+    text-align: center;
+    grid-column: 1/5;
+}
+
+
+
